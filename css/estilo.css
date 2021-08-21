@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Century Gothic", "Trebuchet MS", sans-serif;
+    font-size: 20px;
+    color: #333;
+    text-align: center;
+    margin: 2% 10%;
+    padding: 0;
+    background-color: rgb(124, 179, 174);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.caja {
+    padding: 0.5% 1%;
+    margin: 1%;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.75);
+}
+
+.instrucciones {
+    font-size: 110%;
+}
+
+#imagenAhorcado {
+    display: block;
+    width: 20%;
+    margin: 2% auto;
+}
+
+.laPalabra {
+    color: #eee;
+    display: block;
+    width: 90%;
+    font-family: "Courier", "Courier New", "Consolas";
+    font-size: 200%;
+    font-weight: 900;
+    letter-spacing: 20px;
+    border: 5px solid #777;
+    background: #333;
+    border-radius: 30px;
+    margin: 0 auto;
+    padding: 1%;
+}

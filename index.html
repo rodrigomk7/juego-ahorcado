@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Juego del Ahorcado</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+    <link rel="icon" href="img/favicon.ico">
+</head>
+
+<body>
+    <div class="caja">
+        <h1>Juego del Ahorcado</h1>
+    </div>
+
+    <div>
+        <input class="caja" type="text" list="opciones" id="selec" placeholder="Elige un tema!">
+        <datalist id="opciones"> 
+            <option value="Continentes"></option>
+            <option value="Nombres"></option>
+            <option value="Paises"></option>
+        </datalist>
+        <button class="caja" onclick="comenzar()"> Comenzar</button>
+        <button class="caja" onclick="finalizar() "> Finalizar</button>
+        <h3 id="intentos"> Intentos restantes: 6</h3>
+    </div>
+
+
+
+    <div class="caja">
+        <div class="instrucciones">
+            <h1 id="mensajeInicio"></h1>
+
+        </div>
+        <img id="imagenAhorcado" src="img/0.png">
+
+        <p class="laPalabra" id="resultado">?????</p>
+    </div>
+
+    <div class="caja">Este es un proyecto de prueba! </div>
+
+    <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/palabras.js"></script>
+    <script type="text/javascript" src="js/logica.js"></script>
+</body>
+
+</html>
