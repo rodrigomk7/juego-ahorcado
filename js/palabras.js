@@ -5,7 +5,7 @@ var Nombres = ["RODRIGO","MIGUEL","LUCAS","MATIAS", "GASTON","FACUNDO","MARIANO"
 var Paises = ["ARGENTINA", "MEXICO", "BRASIL", "GUATEMALA", "ESPAÑA", "ITALIA",
     "ESTADOS UNIDOS", "BELGICA", "IRAN", "ISRAEL", "FRANCIA", "JAPON", "CHINA"];
 
-var Continentes = ["AMERICA", "EUROPA", "ASIA", "AFRICA", "OCEANIA", "ARTARTIDA"];
+var Continentes = ["AMERICA", "EUROPA", "ASIA", "AFRICA", "OCEANIA", "ANTARTIDA"];
 
 
 
